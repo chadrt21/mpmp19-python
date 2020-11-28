@@ -10,3 +10,5 @@ Instead of generating the primes (which would be resource intensive), I download
 Required python libraries: 
 - [numpy](https://numpy.org/)
 - [tqdm](https://github.com/tqdm/tqdm)
+
+Average run time: ~1 min 14 seconds
