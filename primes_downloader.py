@@ -10,13 +10,12 @@ __date__ = "2020-11-30"
 import os
 import py7zr
 import requests
-from bs4 import BeautifulSoup
 from tqdm import tqdm   # progress bar (may need to install package from: https://github.com/tqdm/tqdm)
 
 
 # Download & unzip prime numbers files from: http://www.primos.mat.br/2T_en.html
 # Each file contains 10 million primes (~101 MB) -> total of 2 billion primes (~20 GB)
-num_files = 2
+num_files = 200
 prime_files_URL = ['http://www.primos.mat.br/dados/2T_part{}.7z'.format(f) for f in range(1,num_files+1)]
 prime_files = ['2T_part{}.7z'.format(f) for f in range(1,num_files+1)]
 # TODO Check OS
