@@ -13,13 +13,15 @@ Matt Parker's Math Puzzles: The 19 Challenge - http://www.think-maths.co.uk/19ch
 ## Approach
 Instead of generating the primes (which would be resource intensive), I downloaded lists of the first ~~50 million primes from [PrimePages](https://primes.utm.edu/lists/small/millions/)~~ 2 billion primes from [primos.mat](http://www.primos.mat.br/2T_en.html) (Each file conatins 10 million primes; 101 MB per file -> total 2 billion primes: 20 GB)
 
+
 Required python libraries: 
 - [numpy](https://numpy.org/)
 - [tqdm](https://github.com/tqdm/tqdm)
-
-Average run time: ~48 min
+- [py7zr](https://pypi.org/project/py7zr/) (for the prime downloader)
 
 ## Results
+Average run time: ~48 min
+
 All n (for the first 2 billion primes) in which <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;(\sum_{i=1}^{n}&space;p^2&space;)&space;%&space;n&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;(\sum_{i=1}^{n}&space;p^2&space;)&space;%&space;n&space;=&space;0" title="(\sum_{i=1}^{n} p^2 ) % n = 0" /></a> is met:
 
 1,
