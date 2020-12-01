@@ -11,8 +11,7 @@ Matt Parker's Math Puzzles: The 19 Challenge - http://www.think-maths.co.uk/19ch
             Enter any number n where the first n primes squared, add to a multiple of n. Any n ≠ 1 counts, but bigger is better!"
 
 ## Approach
-Instead of generating the primes (which would be resource intensive), I downloaded lists of the first ~~50 million primes from [PrimePages](https://primes.utm.edu/lists/small/millions/)~~ 2 billion primes from [primos.mat](http://www.primos.mat.br/2T_en.html) (Each file conatins 10 million primes; 101 MB per file -> total 2 billion primes: 20 GB)
-
+Instead of generating the primes (which would be resource intensive), I downloaded lists of the first 2 billion primes from [primos.mat](http://www.primos.mat.br/2T_en.html) using the prime_downloader program that I wrote. (Each file conatins 10 million primes; 101 MB per file -> total 2 billion primes: 20 GB)
 
 Required python libraries: 
 - [numpy](https://numpy.org/)
