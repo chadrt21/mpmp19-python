@@ -21,7 +21,7 @@ Required python libraries:
 ## Results
 Average run time: ~48 min
 
-All n (for the first 2 billion primes) in which <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;(\sum_{i=1}^{n}&space;p^2&space;)&space;%&space;n&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;(\sum_{i=1}^{n}&space;p^2&space;)&space;%&space;n&space;=&space;0" title="(\sum_{i=1}^{n} p^2 ) % n = 0" /></a> is met:
+All n (for the first 2 billion primes) in which <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;(\sum_{i=1}^{n}&space;p_i^2&space;)&space;%&space;n&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;(\sum_{i=1}^{n}&space;p_i^2&space;)&space;%&space;n&space;=&space;0" title="(\sum_{i=1}^{n} p_i^2 ) % n = 0" /></a> is met:
 
 1,
 19,
